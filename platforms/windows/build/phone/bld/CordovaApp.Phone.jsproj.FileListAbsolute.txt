@@ -1,0 +1,17 @@
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\debug\anycpu\resources.pri
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\debug\anycpu\CordovaApp.Phone.build.appxrecipe
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\priconfig.xml
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\priconfig.xml.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\layout.resfiles
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\layout.resfiles.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\resources.resfiles
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\resources.resfiles.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\pri.resfiles
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\pri.resfiles.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\qualifiers.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\qualifiers.txt.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\MultipleQualifiersPerDimensionFound.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\ProjectArchitectures.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\package.map.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\phone\bld\_pkginfo.txt

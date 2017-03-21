@@ -1,0 +1,17 @@
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\debug\anycpu\win8.1\CordovaApp.Windows.build.appxrecipe
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\priconfig.xml
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\layout.resfiles
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\resources.resfiles
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\pri.resfiles
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\qualifiers.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\package.map.txt
+E:\Projekte\NFC-Schloss\platforms\windows\build\windows\bld\_pkginfo.txt

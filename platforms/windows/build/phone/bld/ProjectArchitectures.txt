@@ -1,0 +1,1 @@
+E:\Projekte\NFC-Schloss\platforms\windows\CordovaApp.Phone.jsproj;neutral
