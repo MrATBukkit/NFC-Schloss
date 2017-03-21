@@ -29,7 +29,7 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li id="keynav" class="active"><a href="#">Schl&uuml;sselverwaltung</a></li>
-			<li id="usernav" class=""><a href="#">Benutzer</a></li>
+				<li id="usernav" class=""><a href="#">Benutzer</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" id="logoutbtn">Logout</a></li>
@@ -231,7 +231,7 @@
 			});
 			$('#logoutbtn').click(function() {
 				$.ajax({
-					url: "./login/logout.php",
+					url: "http://bukkit.at/login/logout.php",
 				});
 				$('#loginmodal').modal({
 					backdrop: 'static',
