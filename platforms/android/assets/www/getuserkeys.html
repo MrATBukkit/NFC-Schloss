@@ -12,7 +12,6 @@
 		<table class="table table-hover" id="key-table">
 		<thead>
 			<tr>
-				<th><input id="selectallkey" type="checkbox"></th>
 				<th>Ger&auml;t</th>
 				<th>Name</th>
 				<th>Seriennummer</th>
@@ -21,12 +20,9 @@
 		<tbody id="keycontent"></tbody>
 		</table>
 	</div>
-	<div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
-		<div class="btn-group-vertical">
-			<button type="button" id="addkey" class="btn btn-default">Hinzuf&uuml;gen</button>
-			<button type="button" id="deletkey" class="btn btn-default">Entfernen</button>
-		</div>
-	</div>
+	<button id="addkey" style="position:absolute;bottom:5px;right:5px;margin:0;padding:5px 3px;" class="btn btn-danger btn-fab">
+		<span class="glyphicon glyphicon-plus"></span>
+	</button>
 </div>
 <div id="keyedit" class="modal fade" role="dialog">
   <div class="modal-dialog">
@@ -38,7 +34,6 @@
 		<div class="modal-body">
 			<input type="hidden" id="keyid">
 			<div class="form-group">
-				<label for="Bezeichnung">Bezeichnung:</label>
 				<div class="input-group">
 					<span class="input-group-btn">
 						<button id="selecticon" class="btn btn-default" data-icon="glyphicon-map-marker" role="iconpicker" data-header="false" data-footer="false"></button>
@@ -50,11 +45,10 @@
 				Bitte Bezeichnung eingeben!
 			</div>
 			<div class="form-group">
-				<label for="Seriennummer">Seriennummer:</label>
 				<div class="input-group">
 					<input  placeholder="Seriennummer" type="Text" class="form-control" id="Seriennummer">
 					<span class="input-group-btn">
-						<button id="serialauto" type="button" class="btn btn-default">Automatisch</button>
+						<button id="serialauto" type="button" class="btn btn-info btn-raised">Automatisch</button>
 					</span>
 				</div>
 				<div class="alert alert-warning" id="seriennummeralert">
@@ -115,7 +109,7 @@ function hidealert()
 	$('#seriennummeralert').hide();
 }
 $.ajax({
-	url: "getkeys.php",
+	url: "http://bukkit.at/NFC/getkeys.php",
 	success: function(data){
 		$('#keycontent').html(data);
 	}
@@ -125,7 +119,7 @@ if (confirm('Wirklich löschen')) {
     $('.selectabelkey').each(function () {
 	   var id = (this.checked ? $(this).attr('id') : "");
 	   $.ajax({
-			url: "php/dbkey.php?methode=delet&id="+id,
+			url: "http://bukkit.at/NFC/php/dbkey.php?methode=delet&id="+id,
 			success: function(data){
 				reloadkey();
 			}
@@ -137,7 +131,7 @@ $('#serialauto').click(function() {
 	$('#Seriennummer').prop('disabled', true);
 	$('#serialauto').text("Warte auf Chip");
 	$.ajax({
-		url: "php/getserial.php",
+		url: "http://bukkit.at/NFC/php/getserial.php",
 		success: function(data){
 			//console.log(data);
 			$('#Seriennummer').val(data)
@@ -149,7 +143,7 @@ $('#serialauto').click(function() {
 $('#deletedevice').click(function() {
 	var id = $('#keyid').val();
 	$.ajax({
-			url: "php/dbkey.php?methode=delet&id="+id,
+			url: "http://bukkit.at/NFC/php/dbkey.php?methode=delet&id="+id,
 			success: function(data){
 				if (data == "")
 				{
